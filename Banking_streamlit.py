@@ -118,14 +118,6 @@ cursor_pymysql.execute("""
 conn_pymysql.commit()
 print("Table 'branches_data' created successfully in MySQL!")
 
-
-
-
-
-print("✅ Loan_ID and Date_Closed NULL values updated successfully")
-
-
-
 cursor_pymysql.execute("USE customers_db;")  
 cursor_pymysql.execute("""
     CREATE TABLE IF NOT EXISTS support_tickets_data (
